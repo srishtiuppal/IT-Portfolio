@@ -40,3 +40,13 @@ MacBook
         |
         └── CLIENT01
              └── Windows 11
+
+**What I Have Learned**
+What a Domain Controller does?
+What an Active Directory domain is?
+Why Active Directory depends on DNS?
+What a DNS forwarder does?
+How LDAP is used by directory services?
+How Kerberos provides authentication?
+How DNS service records help clients locate AD services?
+How network adapters separate Internet access from the isolated lab network?
