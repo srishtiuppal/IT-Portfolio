@@ -39,9 +39,10 @@ MacBook
         |    └── Kerberos
         |
         └── CLIENT01
-             └── Windows 11
+           └── Windows 11
+             └── Planned: domain join
 
-## Things I learnt
+##Things I learnt - 
 What a Domain Controller does?
 What an Active Directory domain is?
 Why Active Directory depends on DNS?
