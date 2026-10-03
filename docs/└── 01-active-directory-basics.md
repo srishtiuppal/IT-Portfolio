@@ -41,7 +41,7 @@ MacBook
         └── CLIENT01
              └── Windows 11
 
-**## What I Have Learned**
+## Things I learnt
 What a Domain Controller does?
 What an Active Directory domain is?
 Why Active Directory depends on DNS?
