@@ -1,23 +1,42 @@
-# Active Directory Basics
+# Voiletemoon AD Automation Lab
 
-## What is Active Directory?
+A hands-on Active Directory-compatible lab for learning domain
+administration, identity management, DNS, Kerberos, and eventually
+PowerShell-based user provisioning and deprovisioning.
 
-Active Directory is a centralized identity and management
-system used to manage users, computers, groups and access
-within an organization.
+## Project Goal
 
-## Lab Environment
+Built a small fictional company environment for:
 
-Company: Voiletemoon Clothing Co.
+- Active Directory administration
+- User and group management
+- Organizational Units (OUs)
+- Domain-joined Windows clients
+- PowerShell automation
+- User onboarding and offboarding
+- Auditing and logging
 
-Domain Controller: DC01
-Client: CLIENT01
+## Company
 
-## Concepts Learned
+**Voiletemoon Clothing Co.**
 
-- Domain
-- Domain Controller
-- Users
-- Groups
-- Organizational Units
-- DNS
+Domain:
+
+`voiletemoon.local`
+
+## Current Lab Architecture
+
+```text
+MacBook
+   |
+   └── VirtualBox
+        |
+        ├── DC01
+        |    ├── Ubuntu Linux
+        |    ├── Samba AD
+        |    ├── DNS
+        |    ├── LDAP
+        |    └── Kerberos
+        |
+        └── CLIENT01
+             └── Windows 11
